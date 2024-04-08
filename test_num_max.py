@@ -13,6 +13,9 @@ class TestNumMax(unittest.TestCase):
     def test_case_3(self):
         ''' input z is greater that x and y '''
         self.assertEqual(main(1, 1, 4), 4)
+    def test_case_4(self):
+        ''' input z is greater that x and y '''
+        self.assertEqual(main(2, 5, 10), 10)
 
 
 
